@@ -1,11 +1,19 @@
 import React from 'react';
 import Landing from './Components/Landing';
+import Instagram from './Components/Instagram';
+import Flavors from './Components/Flavors';
+import Pricing from './Components/Pricing';
+import Contact from './Components/Contact';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Landing />
+      <Instagram />
+      <Flavors />
+      <Pricing />
+      <Contact />
     </div>
   );
 }

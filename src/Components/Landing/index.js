@@ -3,7 +3,7 @@ import "./style.css";
 
 function Landing() {
     return (
-        <div id="landing">
+        <div className="landing">
             <div id="landingContent">
                 <h1 id="landingTitle">zeesy bakes</h1>
             </div>
