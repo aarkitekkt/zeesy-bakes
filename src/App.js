@@ -10,7 +10,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar
+        logoBtn="landing"
+        galleryBtn="instagram"
+        flavorsBtn="flavors"
+        pricingBtn="pricing"
+        contactBtn="contact"
+      />
       <Landing />
       <Instagram />
       <Flavors />
