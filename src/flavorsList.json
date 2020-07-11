@@ -2,11 +2,13 @@
     {
         "ID": "almondjoy",
         "Flavor": "Almond Joy",
-        "Description": "Chocolate Cake, coconut-almond frosting, topped with toasted coconut and an almond"
+        "Description": "Chocolate Cake, coconut-almond frosting, topped with toasted coconut and an almond",
+        "Image": "./assets/images/Flavors/choc-mint.png"
     },
     {
         "ID": "carrotcake",
         "Flavor": "Carrot Cake",
-        "Description": "Carrot Cake, topped with cream cheese frosting. (Nuts Optional)"
+        "Description": "Carrot Cake, topped with cream cheese frosting. (Nuts Optional)",
+        "Image": "./assets/images/Flavors/vanilla.png"
     }
 ]
