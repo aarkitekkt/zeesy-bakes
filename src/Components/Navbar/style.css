@@ -3,3 +3,7 @@
     background-color: aqua;
     z-index: 1;
     }
+
+#navLogo {
+    height: 75px;
+}

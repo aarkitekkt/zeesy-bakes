@@ -4,11 +4,11 @@ import { Link } from 'react-scroll';
 
 function Navbar(props) {
     return (
-        <div id="navbar" className="container-fluid">
+        <div id="navbar" className="container-fluid bg-transparent text-light">
             <div className="container">
                 <div className="row">
                     <div className="d-flex col-12 col-md-4 justify-content-center justify-content-md-start">
-                        <Link to={props.logoBtn} smooth={true} duration={500} id="logoButton" className="btn">logo</Link>
+                        <Link to={props.logoBtn} smooth={true} duration={500} id="logoButton" className="btn"><img id="navLogo" src="./assets/images/logo-08.png" alt="navbar-logo" /></Link>
 
                     </div>
 

@@ -17,7 +17,9 @@ function App() {
         pricingBtn="pricing"
         contactBtn="contact"
       />
-      <Landing />
+      <Landing
+        galleryBtn="instagram"
+      />
       <Instagram />
       <Flavors />
       <Pricing />
