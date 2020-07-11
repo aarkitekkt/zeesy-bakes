@@ -2,13 +2,91 @@
     {
         "ID": "almondjoy",
         "Flavor": "Almond Joy",
-        "Description": "Chocolate Cake, coconut-almond frosting, topped with toasted coconut and an almond",
-        "Image": "./assets/images/Flavors/choc-mint.png"
+        "Description": "Chocolate cake, coconut-almond frosting, topped with toasted coconut and an almond.",
+        "Image": "./assets/images/Flavors/coming-soon.png"
     },
     {
         "ID": "carrotcake",
         "Flavor": "Carrot Cake",
-        "Description": "Carrot Cake, topped with cream cheese frosting. (Nuts Optional)",
+        "Description": "Carrot cake, topped with cream cheese frosting. (Nuts Optional)",
+        "Image": "./assets/images/Flavors/coming-soon.png"
+    },
+    {
+        "ID": "chocolatechocolate",
+        "Flavor": "Chocolate Chocolate",
+        "Description": "Chocolate cake, topped with chocolate cream cheese frosting.",
+        "Image": "./assets/images/Flavors/choc-choc.png"
+    },
+    {
+        "ID": "chocolatemint",
+        "Flavor": "Chocolate Mint",
+        "Description": "Chocolate cake, topped with mint cream cheese frosting and a chocolate drizzle.",
+        "Image": "./assets/images/Flavors/choc-mint.png"
+    },
+    {
+        "ID": "cookiescream",
+        "Flavor": "Cookies and Cream",
+        "Description": "Chocolate cake with Oreo pieces baked in, topped with an Oreo buttercream.",
+        "Image": "./assets/images/Flavors/cookies-cream.png"
+    },
+    {
+        "ID": "hummingbird",
+        "Flavor": "Hummingbird",
+        "Description": "Banana-pineapple cake, topped with cream cheese frosting. (Nuts optional)",
+        "Image": "./assets/images/Flavors/coming-soon.png"
+    },
+    {
+        "ID": "orangecream",
+        "Flavor": "Orange Cream",
+        "Description": "Orange cake, topped with orange cream cheese frosting.",
+        "Image": "./assets/images/Flavors/orange-cream.png"
+    },
+    {
+        "ID": "peanutbutter",
+        "Flavor": "Peanut Butter",
+        "Description": "Chocolate cake with a peanut butter cup baked in, topped with a peanut butter frosting and a chocolate drizzle.",
+        "Image": "./assets/images/Flavors/coming-soon.png"
+    },
+    {
+        "ID": "pinacolada",
+        "Flavor": "Pina Colada",
+        "Description": "Pineapple cake, topped with a coconut cream cheese frosting and toasted coconut.",
+        "Image": "./assets/images/Flavors/pina-colada.png"
+    },
+    {
+        "ID": "pumpkin",
+        "Flavor": "Pumpkin",
+        "Description": "Pumpkin cake, topped with cream cheese frosting.",
+        "Image": "./assets/images/Flavors/coming-soon.png"
+    },
+    {
+        "ID": "raspberrylemon",
+        "Flavor": "Raspberry Lemon",
+        "Description": "Lemon cake, topped with raspberry cream cheese frosting.",
+        "Image": "./assets/images/Flavors/raspberry-lemon.png"
+    },
+    {
+        "ID": "redvelvet",
+        "Flavor": "Red Velvet",
+        "Description": "Red velvet cake, topped with cream cheese frosting.",
+        "Image": "./assets/images/Flavors/red-velvet.png"
+    },
+    {
+        "ID": "strawberry",
+        "Flavor": "Strawberry",
+        "Description": "Strawberry cake, topped with strawberry buttercream.",
+        "Image": "./assets/images/Flavors/coming-soon.png"
+    },
+    {
+        "ID": "saltedcaramel",
+        "Flavor": "Salted Caramel",
+        "Description": "Chocolate cake, topped with a salted caramel buttercream and a salted caramel drizzle.",
+        "Image": "./assets/images/Flavors/salted-caramel.png"
+    },
+    {
+        "ID": "vanilla",
+        "Flavor": "Vanilla",
+        "Description": "Vanilla cake, topped with cream cheese frosting.",
         "Image": "./assets/images/Flavors/vanilla.png"
     }
 ]
