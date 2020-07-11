@@ -1,0 +1,12 @@
+[
+    {
+        "ID": "almondjoy",
+        "Flavor": "Almond Joy",
+        "Description": "Chocolate Cake, coconut-almond frosting, topped with toasted coconut and an almond"
+    },
+    {
+        "ID": "carrotcake",
+        "Flavor": "Carrot Cake",
+        "Description": "Carrot Cake, topped with cream cheese frosting. (Nuts Optional)"
+    }
+]

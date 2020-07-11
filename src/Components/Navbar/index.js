@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 function Navbar(props) {
     return (
-        <div id="navbar" className="container-fluid bg-transparent text-light">
+        <div id="navbar" className="container-fluid bg-dark text-light">
             <div className="container">
                 <div className="row">
                     <div className="d-flex col-12 col-md-4 justify-content-center justify-content-md-start">
