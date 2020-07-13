@@ -1,9 +1,11 @@
 #navbar {
     position: fixed;
-    background-color: aqua;
+    background-color: #42403d;
+    opacity: .8;
+    box-shadow: 0px 1px 10px #2c2c2c;
     z-index: 1;
     }
 
 #navLogo {
-    height: 75px;
+    height: 50px;
 }
