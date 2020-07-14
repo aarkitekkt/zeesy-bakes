@@ -10,6 +10,5 @@ button {
 button:focus{
     outline: none;
     box-shadow: -6px -6px 12px #FFFFFF inset, 6px 6px 12px #D1CDC7 inset;
-    border: none;
-    text-decoration: underline;
+    font-weight: 700;
 }

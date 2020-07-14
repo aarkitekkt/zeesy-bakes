@@ -8,12 +8,12 @@ function Navbar(props) {
 
             <div className="row">
                 <div className="d-flex col-12 col-md-4 justify-content-center justify-content-md-start">
-                    <Link to={props.logoBtn} smooth={true} duration={500} id="logoButton" className="btn"><img id="navLogo" src="./assets/images/logo-08.png" alt="navbar-logo" /></Link>
+                    <Link to={props.logoBtn} smooth={true} duration={500} id="logoButton" className="btn p-0"><img id="navLogo" src="./assets/images/logo-08.png" className="p-0" alt="navbar-logo" /></Link>
 
                 </div>
 
                 <div className="d-flex col-12 col-md-8 justify-content-center justify-content-md-end">
-                    <ul className="nav py-2">
+                    <ul className="nav pt-2">
                         <li className="nav-item mx-1">
                             <Link to={props.galleryBtn} smooth={true} duration={500} id="galleryButton" className="btn">gallery</Link>
                         </li>

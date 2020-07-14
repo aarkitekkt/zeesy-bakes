@@ -39,10 +39,10 @@ function Flavors() {
                         </div>
                     </div>
                     <div className="col-12 col-md-4 p-0">
-                        <img className="img-fluid rounded-lg p-0" src={flavorState.image} alt="cupcakeFlavors" />
+                        <img className="img-fluid rounded-lg border border-white p-0" src={flavorState.image} alt="cupcakeFlavors" />
                     </div>
                 </div>
-                <div id="flavorList" className="row mx-auto pb-3">
+                <div id="flavorList" className="row mx-auto pb-5">
                     <div className="col-12">
                         {
                             flavorsList.map(flavor => (
