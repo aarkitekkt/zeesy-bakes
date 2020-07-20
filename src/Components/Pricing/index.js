@@ -70,7 +70,44 @@ function Pricing() {
                     </div>
                     <div className="col-12 col-md-6">
                         <div id="cakePricing" className="priceList mx-auto">
-
+                            <h3>Cakes</h3>
+                            <div id="basePrices" className="row mx-auto">
+                                <h5 className="w-100 mx-auto pb-3">Base Prices</h5>
+                                <div className="col-6 border-right">
+                                    <h5 className="border-bottom mx-3">Single Tier</h5>
+                                    <ul className="p-0">
+                                        <li>4" - $25</li>
+                                        <li>6" - $40</li>
+                                        <li>8" - $55</li>
+                                        <li>9" - $65</li>
+                                        <li>10" - 80</li>
+                                    </ul>
+                                </div>
+                                <div className="col-6 border-left">
+                                    <h5 className="border-bottom mx-3">Multi Tier</h5>
+                                    <ul className="p-0">
+                                        <li>6/4" - $80</li>
+                                        <li>8/6" - $110</li>
+                                        <li>9/6" - $125</li>
+                                        <li>8/6/4 - $160</li>
+                                        <li>10/8/6" - $245</li>
+                                        <li>12/9/6" - $275</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="addOns" className="row mx-auto">
+                                <div className="col-12">
+                                    <h5 className="w-100 mx-auto pb-3">Additional Charges</h5>
+                                    <ul className="p-0">
+                                        <li>6/4" - $80</li>
+                                        <li>8/6" - $110</li>
+                                        <li>9/6" - $125</li>
+                                        <li>8/6/4 - $160</li>
+                                        <li>10/8/6" - $245</li>
+                                        <li>12/9/6" - $275</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
