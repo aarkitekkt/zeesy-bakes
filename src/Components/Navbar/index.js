@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 function Navbar(props) {
     return (
-        <div id="navbar" className="container-fluid text-light">
+        <nav id="zeesyNav" className="navbar fixed-top text-light">
 
             <div className="row">
                 <div className="d-flex col-12 col-md-4 justify-content-center justify-content-md-start">
@@ -30,7 +30,7 @@ function Navbar(props) {
                 </div>
             </div>
 
-        </div>
+        </nav>
     )
 }
 
