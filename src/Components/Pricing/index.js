@@ -96,21 +96,58 @@ function Pricing() {
                                 </div>
                             </div>
                             <div id="addOns" className="row mx-auto">
-                                <div className="col-12">
-                                    <h5 className="w-100 mx-auto pb-3">Additional Charges</h5>
-                                    <ul className="p-0">
-                                        <li>6/4" - $80</li>
-                                        <li>8/6" - $110</li>
-                                        <li>9/6" - $125</li>
-                                        <li>8/6/4 - $160</li>
-                                        <li>10/8/6" - $245</li>
-                                        <li>12/9/6" - $275</li>
-                                    </ul>
+                                <h5 className="w-100 mx-auto pb-3">Additional Charges</h5>
+                                <div className="row mx-auto w-100">
+                                    <div className="col-9">
+                                        <p className="text-left">Extra Decoratiodns (Fondant, Piping, Etc.)</p>
+                                    </div>
+                                    <div className="col-3">
+                                        <p className="text-right">Subject to design</p>
+                                    </div>
+                                </div>
+                                <div className="row mx-auto w-100">
+                                    <div className="col-9">
+                                        <p className="text-left">Delivery (Salt Lake and Utah Counties)</p>
+                                    </div>
+                                    <div className="col-3">
+                                        <p className="text-right">$15</p>
+                                    </div>
+                                </div>
+                                <div className="row mx-auto w-100">
+                                    <div className="col-9">
+                                        <p className="text-left">Cake Topper</p>
+                                    </div>
+                                    <div className="col-3">
+                                        <p className="text-right">$5-15</p>
+                                    </div>
+                                </div>
+                                <div className="row mx-auto w-100">
+                                    <div className="col-9">
+                                        <p className="text-left">Macarons (1 dozen)</p>
+                                    </div>
+                                    <div className="col-3">
+                                        <p className="text-right">$20</p>
+                                    </div>
+                                </div>
+                                <div className="row mx-auto w-100">
+                                    <div className="col-9">
+                                        <p className="text-left">Wedding Cake Testing</p>
+                                    </div>
+                                    <div className="col-3">
+                                        <p className="text-right">$20</p>
+                                    </div>
+                                </div>
+                                <div className="row mx-auto w-100">
+                                    <div className="col-9">
+                                        <p className="text-left">Cupcake Add-on(2 dozen mini cupcakes)</p>
+                                    </div>
+                                    <div className="col-3">
+                                        <p className="text-right">$20</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

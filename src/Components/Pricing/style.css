@@ -1,5 +1,5 @@
 .pricing {
-    background-color: #EFEEEE;
+    background-color: #E0E5EC;
     width: 100%;
     margin: 0px;
 }
@@ -14,7 +14,7 @@
 .priceList {
     max-width: 400px;
     height: 800px;
-    box-shadow: -6px -6px 16px #FFFFFF, 6px 6px 16px #D1CDC7;
+    box-shadow: -6px -6px 16px #FFFFFF, 6px 6px 16px #A3B1C6;
     border-radius: 10px;
     padding: 10px;
 }

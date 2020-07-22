@@ -1,9 +1,10 @@
 .flavors {
+    z-index: 2;
     background-color: #EFEEEE;
     width: 100%;
     min-height: 100vh;
     margin: 0px;
-    border-bottom: solid 1px #D1CDC7;
+    box-shadow: 0px 4px 10px #2c2c2c;
 }
 
 #flavorsTitle {
