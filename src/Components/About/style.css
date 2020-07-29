@@ -1,13 +1,27 @@
 .about {
-    background-color: #dfaddc;
+    background-color: #ccb6b0;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0px;
+    padding: 0px 20px;
+}
+
+#aboutTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 125px;
+    padding-bottom: 25px;
 }
 
 #aboutContent {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);    
+    
+}
+.pic {
+    max-height: 175px;
+    box-shadow: -6px -6px 16px #eed4cc, 6px 6px 16px #a08f8a;
+}
+
+#bio {
+    text-align: justify;
+  text-justify: inter-word;
 }
