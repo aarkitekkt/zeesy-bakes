@@ -5,6 +5,7 @@ import Flavors from './Components/Flavors';
 import Pricing from './Components/Pricing';
 import Contact from './Components/Contact';
 import Navbar from './Components/Navbar';
+import About from './Components/About';
 import './App.css';
 
 function App() {
@@ -13,14 +14,14 @@ function App() {
       <Navbar
         logoBtn="landing"
         galleryBtn="instagram"
+        aboutBtn="about"
         flavorsBtn="flavors"
         pricingBtn="pricing"
         contactBtn="contact"
       />
-      <Landing
-        galleryBtn="instagram"
-      />
+      <Landing />
       <Instagram />
+      <About />
       <Flavors />
       <Pricing />
       <Contact />

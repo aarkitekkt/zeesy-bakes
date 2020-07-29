@@ -32,6 +32,9 @@ function Navbar(props) {
                     <Link to={props.galleryBtn} smooth={true} duration={500} onClick={() => toggleNav()} id="galleryButton" className="btn text-white">gallery</Link>
                 </li>
                 <li>
+                    <Link to={props.aboutBtn} smooth={true} duration={500} onClick={() => toggleNav()} id="aboutButton" className="btn text-white">about</Link>
+                </li>
+                <li>
                     <Link to={props.flavorsBtn} smooth={true} duration={500} onClick={() => toggleNav()} id="flavorsButton" className="btn text-white">flavors</Link>
                 </li>
                 <li>
