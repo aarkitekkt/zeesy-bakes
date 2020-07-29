@@ -14,15 +14,17 @@
 .priceList {
     max-width: 400px;
     height: 800px;
-    box-shadow: -6px -6px 16px #FFFFFF, 6px 6px 16px #A3B1C6;
+    box-shadow: -6px -6px 16px #f3f8ff, 6px 6px 16px #abafb4;
     border-radius: 10px;
     padding: 10px;
+    margin: 10px;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500; 
     margin: 25px;
+    
 }
 
 h5 {

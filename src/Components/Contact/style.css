@@ -1,13 +1,40 @@
 .contact {
-    background-color: #849b8b;
+    background-color: #bcd4c6;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0px;
+    padding-top: 100px;
 }
 
+#contactTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}  
+
 #contactContent {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);    
+    max-width: 400px;
+}
+
+.icon {
+    height: 60px;
+    
+}
+
+.social {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px; 
+}
+
+
+.socials {
+    box-shadow: -6px -6px 16px #def8e9, 6px 6px 16px #98aca0;
+    max-width: 60px;
+    min-width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 0px;
+    margin: 10px;
 }

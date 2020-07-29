@@ -14,11 +14,19 @@
     padding-bottom: 25px;
 }  
 
+#flavorList {
+    max-width: 900px;
+}
+
 #selectedFlavor {
     max-width: 800px;
     box-shadow: -6px -6px 16px #FFFFFF, 6px 6px 16px #D1CDC7;
     border-radius: 10px;
     padding: 10px;
+}
+
+#cupcakeContainer {
+ 
 }
 
 #currentFlavor {

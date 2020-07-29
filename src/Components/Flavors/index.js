@@ -38,12 +38,12 @@ function Flavors() {
                             <h5 id="description">{flavorState.description}</h5>
                         </div>
                     </div>
-                    <div className="col-12 col-md-4 p-0">
-                        <img className="img-fluid rounded-lg border border-white p-0" src={flavorState.image} alt="cupcakeFlavors" />
+                    <div id="cupcakeContainer" className="col-12 col-md-4 p-3 rounded-circle">
+                        <img className="img-fluid rounded-circle p-0" src={flavorState.image} alt="cupcakeFlavors" />
                     </div>
                 </div>
                 <div id="flavorList" className="row mx-auto pb-5">
-                    <div className="col-12">
+                    <div className="col-12 flex">
                         {
                             flavorsList.map(flavor => (
                                 < Flavor
