@@ -39,7 +39,7 @@ function Flavors() {
                         </div>
                     </div>
                     <div id="cupcakeContainer" className="col-12 col-md-4 p-3 rounded-circle">
-                        <img className="img-fluid rounded-circle p-0" src={flavorState.image} alt="cupcakeFlavors" />
+                        <img id="currentCupcakeImage" className="img-fluid rounded-circle p-2" src={flavorState.image} alt="cupcakeFlavors" />
                     </div>
                 </div>
                 <div id="flavorList" className="row mx-auto pb-5">
