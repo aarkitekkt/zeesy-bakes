@@ -8,26 +8,26 @@ function Contact() {
             <div id="contactContent" className="container">
                 <div id="quote" className="row mx-auto">
                     <div className="socials col-12 col-sm-3 mx-auto">
-                        <a href="https://www.instagram.com/zeesybake/"><img className="icon" src="./assets/icons/rfq-icon.png" alt="quote-icon" /></a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDmZFlFOHjze8FrBS5rQEbN69evF0vPPfBd5Rq6D0kE9N3Kg/viewform"><img className="icon" src="./assets/icons/rfq-icon.png" alt="quote-icon" /></a>
                     </div>
                     <div className="description col-12 col-sm-9 mx-auto">
-                        <p className="social text-center text-sm-left">Request a quote!</p>
+                        <p className="social text-center text-sm-left pt-0 pt-sm-4">Request a quote!</p>
                     </div>
                 </div>
                 <div id="email" className="row mx-auto">
                     <div className="socials col-12 col-sm-3 mx-auto">
-                        <img className="icon" src="./assets/icons/em-icon.png" alt="email-icon" />
+                        <a href="mailto:zeesybake@gmail.com"><img className="icon" src="./assets/icons/em-icon.png" alt="email-icon" /></a>
                     </div>
                     <div className="description col-12 col-sm-9 mx-auto">
-                        <p className="social text-center text-sm-left">zeesybake@gmail.com</p>
+                        <p className="social text-center text-sm-left pt-0 pt-sm-4">zeesybake@gmail.com</p>
                     </div>
                 </div>
                 <div id="facebook" className="row mx-auto">
                     <div className="socials col-12 col-sm-3 mx-auto">
-                        <img className="icon" src="./assets/icons/fb-icon.png" alt="facebook-icon" />
+                        <a href="https://www.facebook.com/ZeesyBake/"><img className="icon" src="./assets/icons/fb-icon.png" alt="facebook-icon" /></a>
                     </div>
                     <div className="description col-12 col-sm-9 mx-auto">
-                        <p className="social text-center text-sm-left">@ZeesyBake</p>
+                        <p className="social text-center text-sm-left pt-0 pt-sm-4">@ZeesyBake</p>
                     </div>
                 </div>
                 <div id="insta" className="row mx-auto">
@@ -35,7 +35,7 @@ function Contact() {
                         <a href="https://www.instagram.com/zeesybake/"><img className="icon" src="./assets/icons/ig-icon.png" alt="instagram-icon" /></a>
                     </div>
                     <div className="description col-12 col-sm-9 mx-auto">
-                        <p className="social text-center text-sm-left">@zeesybake</p>
+                        <p className="social text-center text-sm-left pt-0 pt-sm-4">@zeesybake</p>
                     </div>
                 </div>
 
