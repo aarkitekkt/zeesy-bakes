@@ -1,7 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./style.css";
+import axios from "axios";
 
 function Instagram() {
+
+    var instagramQuery = "https://graph.instagram.com/me/media?fields=id,media_type,media_url,username&access_token=" + process.env.REACT_APP_IG_TOKEN;
+
+    useEffect(() => {
+        console.log("get some pics!")
+        getInstagramGallery();
+    });
+
+    function getInstagramGallery() {
+
+        axios.get(instagramQuery)
+            .then(res => {
+                console.log(res);
+            })
+    }
+
     return (
         <div className="instagram">
             <h1 id="instagramTitle">instagram gallery</h1>
