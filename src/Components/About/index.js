@@ -10,12 +10,12 @@ function About() {
                     <div id="teamPics" className="col-12 col-sm-5 col-md-12 mb-3">
                         <div className="row">
                             <div className="col-12 col-md-6">
-                                <img className="pic img-fluid rounded-circle p-2 mb-3" src="./assets/images/team/elise.png" alt="zeese" />
+                                <img className="pic img-fluid rounded-circle p-2 mb-3" src="./assets/images/Team/elise.png" alt="zeese" />
                                 <h3 className="m-0">Elise</h3>
                                 <h5 className="mb-5">Lead Decorator</h5>
                             </div>
                             <div className="col-12 col-md-6">
-                                <img className="pic rounded-circle p-2 mb-3" src="./assets/images/team/collin.png" alt="coco" />
+                                <img className="pic rounded-circle p-2 mb-3" src="./assets/images/Team/collin.png" alt="coco" />
                                 <h3 className="m-0">Collin</h3>
                                 <h5>Lead Baker</h5>
                             </div>
