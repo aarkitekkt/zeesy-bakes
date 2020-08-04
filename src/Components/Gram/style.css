@@ -4,4 +4,5 @@
     margin: 20px;    
     box-shadow: -6px -6px 12px #FFFFFF, 6px 6px 12px #D1CDC7 ;
     border-radius: 10px;    
+    object-fit: cover;
 }

@@ -38,8 +38,16 @@ function Contact() {
                         <p className="social text-center text-sm-left pt-0 pt-sm-4">@zeesybake</p>
                     </div>
                 </div>
-
-
+            </div>
+            <div id="footer" className="container">
+                <div id="madeby" className="row mx-auto">
+                    <div className="col-2 mx-auto">
+                        <a href="https://www.aarkitekkt.com"><img className="bjicon" src="./assets/icons/bj_logo_grey.png" alt="aarkitekkt-icon" /></a>
+                    </div>
+                    <div className="col-11 mx-auto">
+                        <p className="">designed by <a href="https://www.aarkitekkt.com">aarkitekkt</a> | 2020</p>
+                    </div>
+                </div>
             </div>
         </div>
     )

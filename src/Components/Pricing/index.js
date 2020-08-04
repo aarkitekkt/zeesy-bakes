@@ -80,7 +80,7 @@ function Pricing() {
                                         <li>6" - $40</li>
                                         <li>8" - $55</li>
                                         <li>9" - $65</li>
-                                        <li>10" - 80</li>
+                                        <li>10" - $80</li>
                                     </ul>
                                 </div>
                                 <div className="col-6 border-left">
@@ -99,7 +99,7 @@ function Pricing() {
                                 <h5 className="w-100 mx-auto pb-3">Additional Charges</h5>
                                 <div className="row mx-auto w-100">
                                     <div className="col-9">
-                                        <p className="text-left">Extra Decoratiodns (Fondant, Piping, Etc.)</p>
+                                        <p className="text-left">Extra Decorations (Fondant, Piping, Etc.)</p>
                                     </div>
                                     <div className="col-3">
                                         <p className="text-right">Subject to design</p>

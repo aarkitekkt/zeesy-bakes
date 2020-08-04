@@ -19,3 +19,15 @@
     
 }
 
+a { color: inherit; } 
+
+.gallerySocials {
+    box-shadow: -6px -6px 12px #FFFFFF, 6px 6px 12px #D1CDC7 ;
+    max-width: 60px;
+    min-width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 0px;
+    margin: 10px;
+}
+

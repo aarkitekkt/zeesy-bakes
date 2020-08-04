@@ -40,7 +40,7 @@ function Instagram() {
 
     return (
         <div className="instagram">
-            <h1 id="instagramTitle">instagram gallery</h1>
+            <h1 id="instagramTitle">Gallery</h1>
             <div id="instagramContent" className="container">
                 <div className="row mx-auto">
                     {
@@ -50,6 +50,14 @@ function Instagram() {
                             />
                         ))
                     }
+                </div>
+                <div id="insta" className="row mx-auto pt-3">
+                    <div className="gallerySocials col-12 mx-auto">
+                        <a href="https://www.instagram.com/zeesybake/"><img className="icon" src="./assets/icons/ig-icon.png" alt="instagram-icon" /></a>
+                    </div>
+                    <div className="description col-12 mx-auto">
+                        <p className="social text-center pt-0 pt-sm-4">Follow us on instagram <a href="https://www.instagram.com/zeesybake/">@zeesybake</a> to see more of our work!</p>
+                    </div>
                 </div>
             </div>
         </div>

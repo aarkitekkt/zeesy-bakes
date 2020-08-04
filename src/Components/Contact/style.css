@@ -18,14 +18,25 @@
 }
 
 .icon {
-    height: 60px;
-    
+    height: 60px;    
+}
+
+.bjicon {
+    height: 20px;    
 }
 
 .social {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 20px; 
+}
+
+
+
+#madeby {
+    height: 30px;
+    width: 350px;
+    margin-top: 75px;
 }
 
 
