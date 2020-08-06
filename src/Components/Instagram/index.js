@@ -41,7 +41,7 @@ function Instagram() {
     return (
         <div className="instagram">
             <h1 id="instagramTitle">Gallery</h1>
-            <div id="instagramContent" className="container">
+            <div id="instagramContent" className="container p-0">
                 <div className="row mx-auto">
                     {
                         srcState.map(imgSrc => (

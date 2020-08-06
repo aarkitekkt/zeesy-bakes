@@ -9,7 +9,7 @@ function Pricing() {
                 <div className="row mx-auto pb-5">
                     <div className="col-12 col-md-6">
                         <div id="cupcakePricing" className="priceList mx-auto">
-                            <h3>Mini Cupcakes</h3>
+                            <h3>48 Mini Cupcakes</h3>
                             <div id="oneFlavor" className="row mx-auto">
                                 <h5 className="mx-auto pb-3">Choose one flavor from either list</h5>
                                 <div className="col-6 border-right">

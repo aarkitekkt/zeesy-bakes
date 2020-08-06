@@ -1,7 +1,7 @@
 .gram {
-    width: 200px;
-    height: 200px;
-    margin: 20px;    
+    width: 170px;
+    height: 170px;
+    margin: 10px;    
     box-shadow: -6px -6px 12px #FFFFFF, 6px 6px 12px #D1CDC7 ;
     border-radius: 10px;    
     object-fit: cover;
