@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 function Flavor(props) {
     return (
 
-        <Link to="flavors" smooth={true} duration={500} id="galleryButton" className="btn p-0 m-2"><button onClick={props.onClick} className="">{props.flavorName}</button></Link>
+        <Link to="flavorsContent" smooth={true} duration={500} id="galleryButton" className="btn p-0 m-2"><button onClick={props.onClick} className="">{props.flavorName}</button></Link>
     )
 }
 

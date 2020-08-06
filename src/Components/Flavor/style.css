@@ -1,6 +1,7 @@
 button {
     color: #42403d;
-    width: 200px;
+    width: 150px;
+    height: 100px;
     box-shadow: -6px -6px 16px #FFFFFF, 6px 6px 16px #D1CDC7;
     border: none;
     border-radius: 10px;

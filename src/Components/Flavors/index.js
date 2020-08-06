@@ -30,7 +30,7 @@ function Flavors() {
     return (
         <div className="flavors">
             <h1 id="flavorsTitle" className="">Flavors</h1>
-            <div className="container">
+            <div id="flavorsContent" className="container pt-2">
                 <div id="selectedFlavor" className="row my-3 mx-auto">
                     <div className="col-12 col-md-8">
                         <div>
@@ -43,7 +43,7 @@ function Flavors() {
                     </div>
                 </div>
                 <div id="flavorList" className="row mx-auto pb-5">
-                    <div className="col-12 flex">
+                    <div className="col-12 flex p-0">
                         {
                             flavorsList.map(flavor => (
                                 < Flavor
