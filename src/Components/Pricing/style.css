@@ -37,10 +37,18 @@ h3 {
 
 h5 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300; 
+    font-weight: 500; 
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     list-style-type: none; 
     text-align: center; 
+    font-size: 15px;
 }

@@ -51,12 +51,54 @@ function Instagram() {
                         ))
                     }
                 </div>
-                <div id="insta" className="row mx-auto pt-3">
-                    <div className="gallerySocials col-12 mx-auto">
-                        <a href="https://www.instagram.com/zeesybake/"><img className="icon" src="./assets/icons/ig-icon.png" alt="instagram-icon" /></a>
+            </div>
+            <div id="zeesyMakesContent" className="container p-0 mt-5">
+                <h3>We make custom cake toppers too!</h3>
+                <h5>Starting at $15</h5>
+                <div className="row mx-auto">
+                    <div className="col-6 col-md-4 col-lg-3 p-0">
+                        <img className="gram mx-auto p-2" src="./assets/images/Toppers/topper1.png" alt="zeesyMakes1" />
                     </div>
-                    <div className="description col-12 mx-auto">
-                        <p className="social text-center pt-0 pt-sm-4">Follow us on instagram <a href="https://www.instagram.com/zeesybake/">@zeesybake</a> to see more of our work!</p>
+                    <div className="col-6 col-md-4 col-lg-3 p-0">
+                        <img className="gram mx-auto p-2" src="./assets/images/Toppers/topper2.png" alt="zeesyMakes1" />
+                    </div>
+                    <div className="col-6 col-md-4 col-lg-3 p-0">
+                        <img className="gram mx-auto p-2" src="./assets/images/Toppers/topper3.png" alt="zeesyMakes1" />
+                    </div>
+                    <div className="col-6 col-md-4 col-lg-3 p-0">
+                        <img className="gram mx-auto p-2" src="./assets/images/Toppers/topper4.png" alt="zeesyMakes1" />
+                    </div>
+                    <div className="col-6 col-md-4 col-lg-3 p-0">
+                        <img className="gram mx-auto p-2" src="./assets/images/Toppers/topper5.png" alt="zeesyMakes1" />
+                    </div>
+                    <div className="col-6 col-md-4 col-lg-3 p-0">
+                        <img className="gram mx-auto p-2" src="./assets/images/Toppers/topper6.png" alt="zeesyMakes1" />
+                    </div>
+                </div>
+
+            </div>
+            <div id="followUs" className="container p-0 mt-5">
+                <h5 className="mt-5">Follow us on instagram to see more of our work!</h5>
+                <div id="insta" className="row mx-auto pb-4">
+                    <div className="col-12 col-md-6">
+                        <div className="row mx-auto">
+                            <div className="col-12">
+                                <a href="https://www.instagram.com/zeesybake/"><img className="icon" src="./assets/icons/ig-icon.png" alt="instagram-icon" /></a>
+                            </div>
+                            <div className="col-12">
+                                <a href="https://www.instagram.com/zeesybake/"><h5>@zeesybake</h5></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-6">
+                        <div className="row mx-auto">
+                            <div className="col-12">
+                                <a href="https://www.instagram.com/zeesybake/"><img className="icon" src="./assets/icons/ig-icon.png" alt="instagram-icon" /></a>
+                            </div>
+                            <div className="col-12">
+                                <a href="https://www.instagram.com/zeesybake/"><h5>@zeesymakes</h5></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
