@@ -22,7 +22,7 @@ function About() {
                         </div>
                     </div>
                     <div id="teamBio" className="col-12 col-sm-7 col-md-12">
-                        <p id="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum consequat purus, id gravida velit accumsan vitae. Donec pharetra rutrum justo, maximus vulputate tortor aliquam in. Ut neque mi, blandit sed felis id, congue luctus ligula. Sed vel erat dui. Donec tincidunt justo vitae leo egestas dapibus. Praesent sed elit nec enim scelerisque dictum consectetur vel risus. Aliquam at aliquet sem. Phasellus auctor dapibus enim. Sed faucibus rutrum metus. Morbi augue est, imperdiet eget pretium eu, tincidunt vel risus. Nunc iaculis elit in enim rhoncus, a auctor magna commodo. Phasellus ac dui vel metus lacinia auctor non tempus ligula. Aliquam at arcu a elit dapibus suscipit. Vestibulum ac turpis pharetra, mattis justo sollicitudin, facilisis nibh. Fusce eget neque non sapien faucibus dignissim. Ut auctor rutrum ullamcorper.</p>
+                        <p id="bio">We are a brother and sister baking team based in Salt Lake City, Utah. We have been baking together for about 10 years, but officially opened our home-based business in June 2019. Collin is a full-time accountant, sports fanatic and bakes all of our delicious cakes and cupcakes. Elise is a stay-at-home mom with a degree in accounting and decorates all of our desserts. She also designs and prints all of our 3D printed cake toppers. We love making anything sweet and would love to help you celebrate your next event. </p>
                     </div>
                 </div>
             </div>
