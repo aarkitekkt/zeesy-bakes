@@ -11,18 +11,19 @@ function Instagram() {
 
     var instagramQuery = "https://graph.instagram.com/me/media?fields=id,media_type,media_url,username&access_token=" + process.env.REACT_APP_IG_TOKEN;
 
-    // when page loads, run function to get instagram image data
+    // When page loads, run function to get instagram image data.
     useEffect(() => {
         getInstagramGallery();
     }, []);
 
     const [srcState, setSrcState] = useState([]);
 
-    // function to query instagram api and return image data
+    // Function to query instagram api and return image data.
     function getInstagramGallery() {
 
         axios.get(instagramQuery)
             .then(res => {
+                // Loop through returned data from instagram API and push only media type "IMAGE" to the gallery array and stop when 12 images are in array.
 
                 for (let i = 0; i < res.data.data.length; i++) {
                     if (res.data.data[i].media_type === "IMAGE" && imageSourceList.length <= 11) {
@@ -93,7 +94,7 @@ function Instagram() {
                     <div className="col-12 col-md-6">
                         <div className="row mx-auto">
                             <div className="col-12">
-                                <a href="https://www.instagram.com/zeesybake/"><img className="icon" src="./assets/icons/ig-icon.png" alt="instagram-icon" /></a>
+                                <a href="https://www.instagram.com/zeesymakes/"><img className="icon" src="./assets/icons/ig-icon.png" alt="instagram-icon" /></a>
                             </div>
                             <div className="col-12">
                                 <a href="https://www.instagram.com/zeesybake/"><h5>@zeesymakes</h5></a>
