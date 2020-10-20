@@ -1,4 +1,5 @@
 import React from 'react';
+import Modal from './Components/Modal';
 import Landing from './Components/Landing';
 import Instagram from './Components/Instagram';
 import Flavors from './Components/Flavors';
@@ -11,6 +12,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <Modal />
       <Navbar
         logoBtn="landing"
         galleryBtn="instagram"
