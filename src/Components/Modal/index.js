@@ -18,7 +18,7 @@ function Modal() {
                     </div>
                     <p className="modalText">Each box contains 16 cupcakes with up to 4 flavors and are perfect gifts for friends, neighbors, or yourself!</p>
                     <p className="modalText">(You've earned it)</p>
-                    <a id="orderButton" href="http://google.com">Order yours now!</a>
+                    <a id="orderButton" href="https://forms.gle/jMwsPkekkdH9ZtZ48">Order yours now!</a>
                 </div>
             </div>
         </div >
