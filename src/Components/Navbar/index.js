@@ -4,46 +4,44 @@ import { Link } from 'react-scroll';
 
 function Navbar(props) {
 
-    const [navState, setNavState] = useState("");
+    const [navState, setNavState] = useState("closed");
 
     function toggleNav() {
 
-        if (navState === "open") {
-            setNavState("");
-        } else if (navState === "") {
-            setNavState("open");
-        }
+        if (navState === "open") { setNavState("closed"); }
+        else if (navState === "closed") { setNavState("open"); }
     }
 
 
     return (
         <nav id="zeesyNav">
-            <div id="navLogo">
-                <Link to={props.logoBtn} smooth={true} duration={500} id="logoButton" className="btn p-0"><img id="logo" src="./assets/images/logo-08.png" className="mt-1 ml-2" alt="navbar-logo" /></Link>
+            <div className={navState} id="hamburger" onClick={() => toggleNav()}>
+                <div className={navState} id="line1"></div>
+                <div className={navState} id="line2"></div>
+                <div className={navState} id="line3"></div>
             </div>
-            <div className="hamburger" onClick={() => toggleNav()}>
-                <div className="line"></div>
-                <div className="line"></div>
-                <div className="line"></div>
-            </div>
-
-            <ul id="nav-links" className={navState}>
-                <li>
-                    <Link to={props.galleryBtn} smooth={true} duration={500} onClick={() => toggleNav()} id="galleryButton" className="btn text-white">gallery</Link>
-                </li>
-                <li>
-                    <Link to={props.aboutBtn} smooth={true} duration={500} onClick={() => toggleNav()} id="aboutButton" className="btn text-white">about</Link>
-                </li>
-                <li>
-                    <Link to={props.flavorsBtn} smooth={true} duration={500} onClick={() => toggleNav()} id="flavorsButton" className="btn text-white">flavors</Link>
-                </li>
-                <li>
-                    <Link to={props.pricingBtn} smooth={true} duration={500} onClick={() => toggleNav()} id="pricingButton" className="btn text-white">pricing</Link>
-                </li>
-                <li>
-                    <Link to={props.contactBtn} smooth={true} duration={500} onClick={() => toggleNav()} id="contactButton" className="btn text-white">contact</Link>
-                </li>
-            </ul>
+            <span className="navWrap">
+                <div id="nav-links" className={navState}>
+                    <div id="logoButton" className="logoLink">
+                        <Link to={props.logoBtn} smooth={true} duration={500} onClick={() => toggleNav()} className="btn"><img id="logo" src="./assets/images/logo-02.png" className="" alt="navbar-logo" /></Link>
+                    </div>
+                    <div id="galleryButton" className="navLink">
+                        <Link to={props.galleryBtn} smooth={true} duration={500} onClick={() => toggleNav()} id="galleryText" className="navText">gallery</Link>
+                    </div>
+                    <div id="aboutButton" className="navLink">
+                        <Link to={props.aboutBtn} smooth={true} duration={500} onClick={() => toggleNav()} id="aboutText" className="navText">about</Link>
+                    </div>
+                    <div id="flavorsButton" className="navLink">
+                        <Link to={props.flavorsBtn} smooth={true} duration={500} onClick={() => toggleNav()} id="flavorsText" className="navText">flavors</Link>
+                    </div>
+                    <div id="pricingButton" className="navLink">
+                        <Link to={props.pricingBtn} smooth={true} duration={500} onClick={() => toggleNav()} id="pricingText" className="navText">pricing</Link>
+                    </div>
+                    <div id="contactButton" className="navLink">
+                        <Link to={props.contactBtn} smooth={true} duration={500} onClick={() => toggleNav()} id="contactText" className="navText">contact</Link>
+                    </div>
+                </div>
+            </span>
 
         </nav>
     )

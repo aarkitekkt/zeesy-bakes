@@ -16,7 +16,7 @@ function Modal() {
                         <h2 className="titleText">Mini Boxes</h2>
                         <h2 className="titleText">$15</h2>
                     </div>
-                    <p className="modalText">Each box contains 16 cupcakes with up to 4 flavors and are perfect gifts for friends, neighbors, or yourself!</p>
+                    <p className="modalText">Each box contains 16 mini cupcakes with up to 4 flavors and are perfect gifts for friends, neighbors, or yourself!</p>
                     <p className="modalText">(You've earned it)</p>
                     <a id="orderButton" href="https://forms.gle/jMwsPkekkdH9ZtZ48">Order yours now!</a>
                 </div>
