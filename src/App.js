@@ -12,7 +12,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Modal />
+
+      {/* <Modal /> */}
       <Navbar
         logoBtn="landing"
         galleryBtn="instagram"
