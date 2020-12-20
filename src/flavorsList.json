@@ -6,12 +6,6 @@
         "Image": "./assets/images/Flavors/coming-soon.png"
     },
     {
-        "ID": "carrotcake",
-        "Flavor": "Carrot Cake",
-        "Description": "Carrot cake, topped with cream cheese frosting. (Nuts Optional)",
-        "Image": "./assets/images/Flavors/coming-soon.png"
-    },
-    {
         "ID": "chocolatechocolate",
         "Flavor": "Chocolate Chocolate",
         "Description": "Chocolate cake, topped with chocolate cream cheese frosting.",
@@ -30,9 +24,15 @@
         "Image": "./assets/images/Flavors/cookies-cream.png"
     },
     {
-        "ID": "hummingbird",
-        "Flavor": "Hummingbird",
-        "Description": "Banana-pineapple cake, topped with cream cheese frosting. (Nuts optional)",
+        "ID": "coconutlime",
+        "Flavor": "Coconut Lime",
+        "Description": "Lime cake, topped with coconut cream cheese frosting.",
+        "Image": "./assets/images/Flavors/coming-soon.png"
+    },
+    {
+        "ID": "malibusunset",
+        "Flavor": "Malibu Sunset",
+        "Description": "Orange-pineapple cake, topped with coconut rum cream cheese frosting.",
         "Image": "./assets/images/Flavors/coming-soon.png"
     },
     {
@@ -52,12 +52,6 @@
         "Flavor": "Pina Colada",
         "Description": "Pineapple cake, topped with a coconut cream cheese frosting and toasted coconut.",
         "Image": "./assets/images/Flavors/pina-colada.png"
-    },
-    {
-        "ID": "pumpkin",
-        "Flavor": "Pumpkin",
-        "Description": "Pumpkin cake, topped with cream cheese frosting.",
-        "Image": "./assets/images/Flavors/coming-soon.png"
     },
     {
         "ID": "raspberrylemon",
