@@ -13,7 +13,7 @@
 #modalContent {
     width: 310px;
     height: 500px;
-    background-color: #AD242C;
+    background-color: #FCB9B2;
     position: fixed;
     left: 50%;
     top: 50%;
@@ -22,37 +22,45 @@
 
 #modalTitle {
     padding: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+    margin-top: -15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 220px;
     height: 220px;
-    border: #CBAF71 5px solid;
-    border-radius: 50%;
 }
 
 .titleText {
     font-family: 'Courgette', cursive;
     font-weight: 500;
-    color: #CBAF71;
+    color: #8C2F39;
     transform: rotate(-15deg) skew(-15deg);
 }
 
+.trim {
+    width: 250px;
+    height: 4px;
+    border-radius: 2px;
+    transform: rotate(-15deg);
+    background-color: #8C2F39;
+    box-shadow: 2px 2px 6px #ce8e87;
+}
+
 #christmas {
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .modalText {
     margin-top: 0px;
     margin-bottom: 5px;
-color: #ECDEB9;
+    color: #461220;
 }
 
 #closeBtn {
     cursor: pointer;
-    color: #ECDEB9;
+    color: #461220;
     position: fixed;
     right: 8px;
     margin: 0px;
@@ -69,15 +77,16 @@ color: #ECDEB9;
 #modalLogo {
     width: 60px;
     height: 60px;
-    margin-bottom: 15px;
+    /* margin-bottom: 10px; */
 }
 
 #orderButton {
+    
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    color: #CBAF71;
-    margin-top: 15px;
-    padding: 8px;
-    box-shadow: -6px -6px 16px #ca313b, 6px 6px 16px #83171f;
+    color: #461220;
+    margin-top: 35px;
+    padding: 8px 30px;
+    box-shadow: -6px -6px 16px #fdd4d0, 6px 6px 16px #ce8e87;
     border-radius: 5px;
 }
