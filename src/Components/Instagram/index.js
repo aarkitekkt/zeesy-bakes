@@ -94,10 +94,10 @@ function Instagram() {
                     <div className="col-12 col-md-6">
                         <div className="row mx-auto">
                             <div className="col-12">
-                                <a href="https://www.instagram.com/zeesymakes/"><img className="icon" src="./assets/icons/ig-icon.png" alt="instagram-icon" /></a>
+                                <a href="https://www.instagram.com/zeesymake/"><img className="icon" src="./assets/icons/ig-icon.png" alt="instagram-icon" /></a>
                             </div>
                             <div className="col-12">
-                                <a href="https://www.instagram.com/zeesybake/"><h5>@zeesymakes</h5></a>
+                                <a href="https://www.instagram.com/zeesymake/"><h5>@zeesymake</h5></a>
                             </div>
                         </div>
                     </div>
