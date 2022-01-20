@@ -35,3 +35,8 @@ a { color: inherit; }
     margin: 10px;
 }
 
+.westTenth {
+    max-width: 200px;
+    margin: 20px;
+}
+
