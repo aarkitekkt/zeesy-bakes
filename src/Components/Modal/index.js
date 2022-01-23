@@ -10,16 +10,15 @@ function Modal() {
             <div id="modalContent">
                 <h3 id="closeBtn" onClick={() => setModalState("closed")}>×</h3>
                 <div className="modalContentContainer">
-                    <img id="modalLogo" src="./assets/images/logo_burgundy-03.png" alt="ZBlogo" />
+                    <img id="modalLogo" src="./assets/images/logo-08.png" alt="ZBlogo" />
                     <div id="modalTitle">
                         <div className="trim"></div>
-                        <h2 id="christmas" className="titleText">Valentine's Day</h2>
-                        <h2 className="titleText">Treat Boxes</h2>
+                        <h2 id="christmas" className="titleText">We'll be right back!</h2>
                         <div className="trim"></div>
                     </div>
-                    <p className="modalText">Three treat box varieties with customizable flavor options.</p>
-                    <p className="modalText">Starting at $5</p>
-                    <a id="orderButton" href="https://forms.gle/b95apENFBtpegeLP6">Order yours now!</a>
+                    <h5 className="modalText">We will be temporarily closed through March while Elise takes her maternity leave.  We will reply to all cake and cupcake inquiries by the end of March.
+                    </h5>
+                    {/* <a id="orderButton" href="https://forms.gle/b95apENFBtpegeLP6">Order yours now!</a> */}
                 </div>
             </div>
         </div >

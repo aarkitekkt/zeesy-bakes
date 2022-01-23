@@ -13,7 +13,7 @@
 #modalContent {
     width: 310px;
     height: 500px;
-    background-color: #FCB9B2;
+    background-color: #0f7e9b;
     position: fixed;
     left: 50%;
     top: 50%;
@@ -35,7 +35,7 @@
 .titleText {
     font-family: 'Courgette', cursive;
     font-weight: 500;
-    color: #8C2F39;
+    color: #FFFFFF;
     transform: rotate(-15deg) skew(-15deg);
 }
 
@@ -44,8 +44,8 @@
     height: 4px;
     border-radius: 2px;
     transform: rotate(-15deg);
-    background-color: #8C2F39;
-    box-shadow: 2px 2px 6px #ce8e87;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 6px #F0F7FF;
 }
 
 #christmas {
@@ -55,12 +55,12 @@
 .modalText {
     margin-top: 0px;
     margin-bottom: 5px;
-    color: #461220;
+    color: #FFFFFF;
 }
 
 #closeBtn {
     cursor: pointer;
-    color: #461220;
+    color: #FFFFFF;
     position: fixed;
     right: 8px;
     margin: 0px;
