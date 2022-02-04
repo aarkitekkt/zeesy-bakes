@@ -45,7 +45,7 @@ function Contact() {
                         <a href="https://www.aarkitekkt.com"><img className="bjicon" src="./assets/icons/bj_logo_grey.png" alt="aarkitekkt-icon" /></a>
                     </div>
                     <div className="col-11 mx-auto">
-                        <p className="">designed by <a href="https://www.aarkitekkt.com">aarkitekkt</a> | 2020</p>
+                        <p className="">designed by <a href="https://www.aarkitekkt.com">aarkitekkt</a> | 2022</p>
                     </div>
                 </div>
             </div>

@@ -58,22 +58,22 @@ function Instagram() {
                 <h5>Starting at $15</h5>
                 <div className="row mx-auto">
                     <div className="col-6 col-md-4 col-lg-3 p-0">
-                        <img className="gram mx-auto p-2" src="./assets/images/Toppers/topper1.png" alt="zeesyMakes1" />
+                        <img className="gram mx-auto" src="./assets/images/Toppers/topper1.png" alt="zeesyMakes1" />
                     </div>
                     <div className="col-6 col-md-4 col-lg-3 p-0">
-                        <img className="gram mx-auto p-2" src="./assets/images/Toppers/topper2.png" alt="zeesyMakes1" />
+                        <img className="gram mx-auto" src="./assets/images/Toppers/topper2.png" alt="zeesyMakes1" />
                     </div>
                     <div className="col-6 col-md-4 col-lg-3 p-0">
-                        <img className="gram mx-auto p-2" src="./assets/images/Toppers/topper3.png" alt="zeesyMakes1" />
+                        <img className="gram mx-auto" src="./assets/images/Toppers/topper3.png" alt="zeesyMakes1" />
                     </div>
                     <div className="col-6 col-md-4 col-lg-3 p-0">
-                        <img className="gram mx-auto p-2" src="./assets/images/Toppers/topper4.png" alt="zeesyMakes1" />
+                        <img className="gram mx-auto" src="./assets/images/Toppers/topper4.png" alt="zeesyMakes1" />
                     </div>
                     <div className="col-6 col-md-4 col-lg-3 p-0">
-                        <img className="gram mx-auto p-2" src="./assets/images/Toppers/topper5.png" alt="zeesyMakes1" />
+                        <img className="gram mx-auto" src="./assets/images/Toppers/topper5.png" alt="zeesyMakes1" />
                     </div>
                     <div className="col-6 col-md-4 col-lg-3 p-0">
-                        <img className="gram mx-auto p-2" src="./assets/images/Toppers/topper6.png" alt="zeesyMakes1" />
+                        <img className="gram mx-auto" src="./assets/images/Toppers/topper6.png" alt="zeesyMakes1" />
                     </div>
                 </div>
 
