@@ -13,63 +13,6 @@ function Pricing() {
                             <div id="oneFlavor" className="row mx-auto">
                                 <h5 className="mx-auto pb-3">Choose one flavor from either list</h5>
                                 <div className="col-6 border-right">
-                                    <h5 className="border-bottom mx-3">$30</h5>
-                                    <ul className="p-0">
-                                        <li>Chocolate Chocolate</li>
-                                        <li>Chocolate Mint</li>
-                                        <li>Coconut Lime</li>
-                                        <li>Orange Cream</li>
-                                        <li>Pina Colada</li>
-                                        <li>Red Velvet</li>
-                                        <li>Vanilla</li>
-                                    </ul>
-                                </div>
-                                <div className="col-6 border-left">
-                                    <h5 className="border-bottom mx-3">$35</h5>
-                                    <ul className="p-0">
-                                        <li>Almond Joy</li>
-                                        <li>Cookies and Cream</li>
-                                        <li>Malibu Sunset</li>
-                                        <li>Peanut Butter</li>
-                                        <li>Raspberry Lemon</li>
-                                        <li>Salted Caramel</li>
-                                        <li>Strawberry</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div id="twoFlavors" className="row mb-3 mx-auto">
-                                <h5 className="w-100 py-3">Choose two flavors from either list</h5>
-                                <h5 className="w-100 border-bottom">$40</h5>
-                                <div className="col-6 border-right">
-                                    <ul className="p-0">
-                                        <li>Almond Joy</li>
-                                        <li>Chocolate Chocolate</li>
-                                        <li>Chocolate Mint</li>
-                                        <li>Cookies and Cream</li>
-                                        <li>Peanut Butter</li>
-                                        <li>Salted Caramel</li>
-                                    </ul>
-                                </div>
-                                <div className="col-6 border-left">
-                                    <ul className="p-0">
-                                        <li>Coconut Lime</li>
-                                        <li>Malibu Sunset</li>
-                                        <li>Orange Cream</li>
-                                        <li>Pina Colada</li>
-                                        <li>Raspberry Lemon</li>
-                                        <li>Strawberry</li>
-                                        <li>Vanilla</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-md-6 col-lg-4">
-                        <div id="miniCupcakePricing" className="priceList mx-auto">
-                            <h3>48 Mini Cupcakes</h3>
-                            <div id="oneFlavor" className="row mx-auto">
-                                <h5 className="mx-auto pb-3">Choose one flavor from either list</h5>
-                                <div className="col-6 border-right">
                                     <h5 className="border-bottom mx-3">$35</h5>
                                     <ul className="p-0">
                                         <li>Chocolate Chocolate</li>
@@ -122,6 +65,63 @@ function Pricing() {
                         </div>
                     </div>
                     <div className="col-12 col-md-6 col-lg-4">
+                        <div id="miniCupcakePricing" className="priceList mx-auto">
+                            <h3>48 Mini Cupcakes</h3>
+                            <div id="oneFlavor" className="row mx-auto">
+                                <h5 className="mx-auto pb-3">Choose one flavor from either list</h5>
+                                <div className="col-6 border-right">
+                                    <h5 className="border-bottom mx-3">$40</h5>
+                                    <ul className="p-0">
+                                        <li>Chocolate Chocolate</li>
+                                        <li>Chocolate Mint</li>
+                                        <li>Coconut Lime</li>
+                                        <li>Orange Cream</li>
+                                        <li>Pina Colada</li>
+                                        <li>Red Velvet</li>
+                                        <li>Vanilla</li>
+                                    </ul>
+                                </div>
+                                <div className="col-6 border-left">
+                                    <h5 className="border-bottom mx-3">$45</h5>
+                                    <ul className="p-0">
+                                        <li>Almond Joy</li>
+                                        <li>Cookies and Cream</li>
+                                        <li>Malibu Sunset</li>
+                                        <li>Peanut Butter</li>
+                                        <li>Raspberry Lemon</li>
+                                        <li>Salted Caramel</li>
+                                        <li>Strawberry</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="twoFlavors" className="row mb-3 mx-auto">
+                                <h5 className="w-100 py-3">Choose two flavors from either list</h5>
+                                <h5 className="w-100 border-bottom">$50</h5>
+                                <div className="col-6 border-right">
+                                    <ul className="p-0">
+                                        <li>Almond Joy</li>
+                                        <li>Chocolate Chocolate</li>
+                                        <li>Chocolate Mint</li>
+                                        <li>Cookies and Cream</li>
+                                        <li>Peanut Butter</li>
+                                        <li>Salted Caramel</li>
+                                    </ul>
+                                </div>
+                                <div className="col-6 border-left">
+                                    <ul className="p-0">
+                                        <li>Coconut Lime</li>
+                                        <li>Malibu Sunset</li>
+                                        <li>Orange Cream</li>
+                                        <li>Pina Colada</li>
+                                        <li>Raspberry Lemon</li>
+                                        <li>Strawberry</li>
+                                        <li>Vanilla</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-4">
                         <div id="cakePricing" className="priceList mx-auto">
                             <h3>Cakes</h3>
                             <div id="basePrices" className="row mx-auto">
@@ -129,19 +129,19 @@ function Pricing() {
                                 <div className="col-6 border-right">
                                     <h5 className="border-bottom mx-3">Single Tier</h5>
                                     <ul className="p-0">
-                                        <li>4" - $35</li>
-                                        <li>6" - $50</li>
-                                        <li>8" - $65</li>
-                                        <li>9" - $75</li>
-                                        <li>10" - $90</li>
+                                        <li>4" - $40</li>
+                                        <li>6" - $60</li>
+                                        <li>8" - $75</li>
+                                        <li>9" - $85</li>
+                                        <li>10" - $100</li>
                                     </ul>
                                 </div>
                                 <div className="col-6 border-left">
                                     <h5 className="border-bottom mx-3">Multi Tier</h5>
                                     <ul className="p-0">
-                                        <li>6/4" - $110</li>
-                                        <li>8/6" - $145</li>
-                                        <li>9/6" - $155</li>
+                                        <li>6/4" - $125</li>
+                                        <li>8/6" - $160</li>
+                                        <li>9/6" - $175</li>
                                     </ul>
                                 </div>
                             </div>
@@ -184,7 +184,7 @@ function Pricing() {
                                         <p className="text-left">Wedding Cake Testing</p>
                                     </div>
                                     <div className="col-3">
-                                        <p className="text-right">$20</p>
+                                        <p className="text-right">$25</p>
                                     </div>
                                 </div>
                                 <div className="row mx-auto w-100">
@@ -192,7 +192,7 @@ function Pricing() {
                                         <p className="text-left">Cupcake Add-on(2 dozen mini cupcakes)</p>
                                     </div>
                                     <div className="col-3">
-                                        <p className="text-right">$20</p>
+                                        <p className="text-right">$25</p>
                                     </div>
                                 </div>
                                 <div className="row mx-auto w-100">
